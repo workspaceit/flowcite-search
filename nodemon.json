@@ -1,0 +1,20 @@
+{
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": 8080
+  },
+  "execMap": {
+    "js": "node --harmony"
+  },
+  "restartable": "rs",
+  "verbose": true,
+  "watch": [
+    "loaders/",
+    "providers/",
+    "middlewares/",
+    "routers/",
+    "utils/",
+    "app.js",
+    "index.js"
+  ]
+}
